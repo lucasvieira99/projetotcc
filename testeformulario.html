@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">   
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="./testeformulario.css"/>
+
+
+<body>
+ <div class="CadSmBicicletaria">
+ 
+  <form id="cadastroUsu" name="cadastro_usuario" method="post" action="usuarioindex.php">
+      
+    <h3>CRIAR CONTA</h3>
+      
+    <fieldset>
+      <p><label>NOME : <input type="text" name="nm_nome" id="id_nome" placeholder="Insira seu nome completo"
+         maxlength="50" size="50" required></label></p>
+    </fieldset>
+
+    <fieldset>
+      <p><label>CPF :<input type="text" name="c_cpf" id="id_cpf" placeholder="Ex: xxx.xxx.xxx.xx"
+          size="50" required></label></p>
+    </fieldset>
+
+    <fieldset>
+      <p><label>RG :<input type="text" name="nmr_RG" id="id_RG" placeholder="Insira o seu RG"
+         size="50" required></label>
+    </fieldset>
+
+
+    <fieldset>
+      <p><label>E-MAIL :<input type="text" name="em_email" id="id_email" placeholder="exemplo@hotmail.com.br"
+         size="50" required></label></p>
+    </fieldset>
+
+
+   
+    <fieldset>
+      <p><label>DATA DE NASCIMENTO :<input type="date" name="dt_nascimento"  id="id_Data_de_nascimento" required></label></p>
+    </fieldset>
+   
+    <fieldset>
+      <p><label> ENDEREÇO :<input type="text" name="end_endereco" id="id_endereço" placeholder="Insira o seu endereço completo"
+         size="50" required></label></p>
+    </fieldset>
+
+
+    <fieldset>
+      <p><label>CEP :<input type="text" name="cp_cep" id="id_cep" placeholder="Ex: xxxxx-xxx"
+         size="50" required></label></p>
+    </fieldset>
+
+
+   <fieldset>  
+     <p><label>TELEFONE :<input type="text" name="tel_telefone" id="id_telefone" placeholder="(xx)xxxxx-xxxx"
+         size="50"></label></p>
+   </fieldset>
+   
+   <fieldset>
+     <input type="submit" name="botaoSubmit" id="edados" value="Enviar dados" onclick="alert('Cadastro submetido com sucesso');">
+     <input type="reset" name="botaoreset" id="ereset" value="Limpar Campos">
+   </fieldset>
+
+</div>
+
+</form>
+   
+</body>
+
+</html>
